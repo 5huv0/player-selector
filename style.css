@@ -3,15 +3,45 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+#main{
+    background-color: brown;
+}
+
 .card{
     width: 270px;
     margin: 5px;
 }
 
+#navbar{
+    
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.nav{
+    margin-top: 56px;
+}
+
+.nav-item{
+    background-color: crimson;
+    padding: 2px;
+    margin: 1px;
+    border: 2px red;
+    border-radius: 25px;
+}
+
 .card-img-top{
-    width: 200px;
+    width: 800px;
     height: 200px;
 }
+
+
+.col-4, .col-8{
+    width: 200px;
+    color: wheat;
+}
+
+
 
 .card-body{
    background-color: rgb(129, 129, 129);
@@ -32,4 +62,8 @@
     margin: 5px;
     border: none;
     border-radius: 20px;
+}
+
+#footer{
+    height: 200px;
 }
