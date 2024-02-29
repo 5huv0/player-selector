@@ -12,36 +12,10 @@
     margin: 5px;
 }
 
-#navbar{
-    
-    margin-bottom: 50px;
-    margin-top: 10px;
-}
-
-.nav{
-    margin-top: 56px;
-}
-
-.nav-item{
-    background-color: crimson;
-    padding: 2px;
-    margin: 1px;
-    border: 2px red;
-    border-radius: 25px;
-}
-
 .card-img-top{
     width: 800px;
     height: 200px;
 }
-
-
-.col-4, .col-8{
-    width: 200px;
-    color: wheat;
-}
-
-
 
 .card-body{
    background-color: rgb(129, 129, 129);
@@ -66,4 +40,66 @@
 
 #footer{
     height: 200px;
+}
+
+ .navbar{
+    background-color: #80BCBD;
+}
+
+.logo{
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+}
+
+.buttons{
+    width: 400px;
+    height: 40px;
+    border-radius: 300px;
+    margin-right: 10px;
+}
+
+.buttons .nav-btns{
+    text-decoration: none;
+    font-size: larger;
+    padding: 5px;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    background: linear-gradient(to right , grey, #0f0f0f);
+    width: 80px;
+}
+
+.nav-btns:hover{
+    background-color: greenyellow;
+    color: black;
+    border-radius: 45px;
+    transition: background-color 0.3s;
+    background: linear-gradient(to right , #537FE7, #1D24CA);
+}
+
+.nav-cmnt{
+    font-weight: 700;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+#select{
+    font-style: italic;
+    color: red;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#select:hover{
+    font-size: 80px;
+    transition: font-size 0.9s;
+}
+
+#favourite{
+    color: grey;
+}
+
+#favourite:hover{
+    font-size: 25px;
+    transition: font-size 0.9s;
 }
