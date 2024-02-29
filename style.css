@@ -76,6 +76,8 @@
     border-radius: 45px;
     transition: background-color 0.3s;
     background: linear-gradient(to right , #537FE7, #1D24CA);
+    transform: scale(1.5) ;
+    transition: transform 0.7s;
 }
 
 .nav-cmnt{
