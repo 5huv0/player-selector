@@ -9,7 +9,7 @@
 
 .card{
     width: 270px;
-    margin: 5px;
+    margin: 8px;
 }
 
 .card-img-top{
@@ -23,7 +23,7 @@
 }
 
 .card:hover{
-    box-shadow: 7px 7px 12px rgba(51, 248, 188, 0.3);
+    box-shadow: 7px 7px 12px rgba(255, 255, 255, 0.3);
     cursor: pointer;
 }
 
@@ -104,4 +104,27 @@
 #favourite:hover{
     font-size: 25px;
     transition: font-size 0.9s;
+}
+
+/* .col-8{
+    background-color: chartreuse;
+}
+
+.col-4{
+    background-color:yellow;
+} */
+
+.col-3{
+    margin:10px 10px;
+}
+
+
+.selected-players{
+    margin-top: 30px;
+    background-color: white;
+    color: black;
+    height:10%; 
+    width:70%;
+    border-radius: 10px;
+    padding: 28px;
 }
