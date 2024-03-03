@@ -1,10 +1,11 @@
 function player1(){
     let s = document.getElementById("p1").innerText;
     let input = console.log(s);
+    
 }
 function player2(){
     let s = document.getElementById("p2").innerText;
-    let input = console.log(s);
+    let input = console.log(s); 
 }
 function player3(){
     let s = document.getElementById("p3").innerText;
@@ -94,5 +95,7 @@ function player24(){
     let s = document.getElementById("p24").innerText;
     let input = console.log(s);
 }
+
+
 
 
